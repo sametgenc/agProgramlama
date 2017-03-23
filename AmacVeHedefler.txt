@@ -1,15 +1,12 @@
 <strong>Amaçlar</strong>
 <hr>
-<pre>
 a- Bilgisayar yazılımı/donanımı, Araştırma-Geliştirme, ulusal/uluslararası bilişim kuruluşlarında ya da akademik alanlarda başarılı kariyer sergileyebilecek mühendisler yetiştirmek, <br><br>
 
 b- Otomotiv ve bankacılık sektöründe bilgisayar ve bilişim mühendisliği problemlerine sürdürülebilir çözümler sunabilen, bilimsel ve teknolojik gelişmeleri takip edebilen mühendisler yetiştirmek,<br><br>
 
 c- Girişimci ve alanlarında rekabet edebilen mühendisler yetiştirmek.
-</pre>
 <hr>
 <strong>Hedefler</strong>
 <hr>
-<pre>
 Kazandığı bilgiyi toplumsal ve endüstriyel faydaya dönüştürerek bilgisayar bilimini üretici ve sürükleyici bir güç haline getiren ve küresel alandaki gelişmeleri izleyebilen ve rekabet cesaretine sahip mühendisleri yetiştirmek için sürekli yenilenme ve gelişme bilinciyle çalışan bir bölüm olmak.
-</pre>
+<hr>
