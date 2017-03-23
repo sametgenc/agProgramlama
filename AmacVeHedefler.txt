@@ -1,5 +1,5 @@
 <br>Amaçlar</br>
-
+<hr>
 a- Bilgisayar yazılımı/donanımı, Araştırma-Geliştirme, ulusal/uluslararası bilişim kuruluşlarında ya da akademik alanlarda başarılı kariyer sergileyebilecek mühendisler yetiştirmek, 
 
 b- Otomotiv ve bankacılık sektöründe bilgisayar ve bilişim mühendisliği problemlerine sürdürülebilir çözümler sunabilen, bilimsel ve teknolojik gelişmeleri takip edebilen mühendisler yetiştirmek, 
