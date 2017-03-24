@@ -1,54 +1,64 @@
 [
 {
     "ad": "İNGİLİZCE",
+    "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "saat": 4,
-    "kredi": 4,
-    "akts": 4
-
+    "derskoor":"Ahmet",
+    "dersAmac": "Bu ders ile öğrencilerin, "European Language Portfolio Global Scale" B1 düzeyinde İngilizcede;
+    - Temel dilbilgisine sahip olmaları,
+    - Dinlediklerini anlamaları,
+    - Karşılıklı konuşabilmeleri,
+    - Okuduklarını anlamaları,
+    - Kendilerini yazıyla ifade edebilmeleri amaçlanmaktadır",
+    "dersIcerik": "Öğrencilerin sonraki yıllarda görecekleri mesleki İngilizce derslerini takip edebilmeleri, lisans sonrası ve meslek hayatlarında ihtiyaç duyacakları İngilizce´ye temel oluşturacak seviyede İngilizce dilbilgisi, kelime dağarcığı, okuduğunu anlama, sözlü anlatım ve yazma becerileri
+"
 },
 {
     "ad": "PROGRAMLAMAYA GİRİŞ",
+    "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "saat": 4,
-    "kredi": 4,
-    "akts": 6
-    
+    "derskoor":"Mehmet",
+    "dersAmac": "Programlamaya Girişi anlatmak.",
+    "dersIcerik": "C++"    
 },
 {
     "ad": "OLASILIK VE İSTATİSTİK",
+    "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "saat": 3,
-    "kredi": 3,
-    "akts": 4
+    "derskoor":"Osman",
+    "dersAmac": "Olasılık ve İstatistik anlatmak.",
+    "dersIcerik": "Olasılık"    
   
 },
 {   
     "ad": "AĞ PROGRAMLAMA",
-    "tür": "Seçmeli",
+    "seviye":"Lisans",
+    "tür": "Zorunlu",
     "dil": "Türkçe",
-    "saat": 3,
-    "kredi": 3,
-    "akts": 5
+    "derskoor":"Celal Çeken",
+    "dersAmac": "Ağ Programlama anlatmak.",
+    "dersIcerik": "Php nojs" 
 }
 {
     "ad": "VERİTABANI YÖNETİM SİSTEMLERİ",
+    "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "saat": 3,
-    "kredi": 3,
-    "akts": 5
+    "derskoor":"Celal Çeken",
+    "dersAmac": "Veri Tabanı anlatmak.",
+    "dersIcerik": "Mysql" 
 },
 {
     "ad": "MİKROİŞLEMCİLİ SİSTEMLER VE LABORATUVARI",
+    "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "saat": 4,
-    "kredi": 4,
-    "akts": 5
+    "derskoor":"Murat",
+    "dersAmac": "Mikroişlemci yapısını anlamak",
+    "dersIcerik": "Zor Ders" 
 }
 
 ]
