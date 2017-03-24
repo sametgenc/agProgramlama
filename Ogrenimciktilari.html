@@ -1,4 +1,18 @@
-<div class="col-md-8">
+<script>
+    var x = new XMLHttpRequest();
+    x.open("GET", "https://cdn.rawgit.com/sametgenc/agProgramlama/9b3bea08/OgrenimCiktilari.xml", true);
+    x.onreadystatechange = function () {
+        if (x.readyState == 4 && x.status == 200)
+        {
+        var doc = x.responseXML;
+        // …
+        }
+    };
+    x.send(null);
+    console.log("doc:"+doc);
+    console.log("x:"+x);
+    
+</script>
         <div class="tabs">
             <ul class="nav nav-tabs nav-justified">
                 <li class="active"><a href="#siniflandirilmis" data-toggle="tab" class="text-center">Sınıflandırılmış</a></li>
@@ -10,7 +24,8 @@
                     <br>
                     <b>BİLGİ</b><br><br>
                     <div style="text-align: justify;">
-                        <ul id="sbilgi"><li>Matematik, fen bilimleri ve ilgili mühendislik disiplinine özgü konularda yeterli bilgi birikimi; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanabilme becerisi.</li><li>Karmaşık mühendislik problemlerini saptama, tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz ve modelleme yöntemlerini seçme ve uygulama becerisi.</li></ul>
+                        <ul id="sbilgi"><li>
+                            </li></ul>
                     </div>
 
                     <br>
@@ -92,4 +107,3 @@
 
             </div>
         </div>
-    </div>
