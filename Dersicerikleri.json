@@ -1,0 +1,54 @@
+[
+{
+    "ad": "İNGİLİZCE",
+    "tür": "Zorunlu",
+    "dil": "Türkçe",
+    "saat": 4,
+    "kredi": 4,
+    "akts": 4
+
+},
+{
+    "ad": "PROGRAMLAMAYA GİRİŞ",
+    "tür": "Zorunlu",
+    "dil": "Türkçe",
+    "saat": 4,
+    "kredi": 4,
+    "akts": 6
+    
+},
+{
+    "ad": "OLASILIK VE İSTATİSTİK",
+    "tür": "Zorunlu",
+    "dil": "Türkçe",
+    "saat": 3,
+    "kredi": 3,
+    "akts": 4
+  
+},
+{   
+    "ad": "AĞ PROGRAMLAMA",
+    "tür": "Seçmeli",
+    "dil": "Türkçe",
+    "saat": 3,
+    "kredi": 3,
+    "akts": 5
+}
+{
+    "ad": "VERİTABANI YÖNETİM SİSTEMLERİ",
+    "tür": "Zorunlu",
+    "dil": "Türkçe",
+    "saat": 3,
+    "kredi": 3,
+    "akts": 5
+},
+{
+    "ad": "MİKROİŞLEMCİLİ SİSTEMLER VE LABORATUVARI",
+    "tür": "Zorunlu",
+    "dil": "Türkçe",
+    "saat": 4,
+    "kredi": 4,
+    "akts": 5
+}
+
+]
