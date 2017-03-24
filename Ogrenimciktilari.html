@@ -1,20 +1,48 @@
-
 <script>
-    var x = new XMLHttpRequest();
-    x.open("GET", "https://cdn.rawgit.com/sametgenc/agProgramlama/9b3bea08/OgrenimCiktilari.xml", true);
-    x.onreadystatechange = function () {
-        if (x.readyState == 4 && x.status == 200)
-        {
-        var doc = x.responseXML;
-        // …
+    function loadXMLDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
         }
     };
-    x.send(null);
-    console.log("doc:"+doc);
-    console.log("x:"+x);
-    
+    xhttp.open("GET", "https://cdn.rawgit.com/sametgenc/agProgramlama/23991496/OgrenimCiktilari.xml", true);
+    xhttp.send();
+}
+
+    function myFunction(xml){
+    var xmlAd,xmlIcerik,xmlDoc,txt;
+    xmlDoc=xml.responseXML;
+        
+    xmlAd=xmlDoc.getElementsByTagName("ad");
+    xmlIcerik=xmlDoc.getElementsByTagName("icerik");
+
+    document.getElementById("bilgiBaslik").innerHTML = xmlAd[0].childNodes[0].nodeValue;
+    document.getElementById("bilgi1").innerHTML = xmlIcerik[0].childNodes[0].nodeValue;
+    document.getElementById("bilgi2").innerHTML = xmlIcerik[1].childNodes[0].nodeValue;
+
+    document.getElementById("beceriBaslik").innerHTML = innerHTML = xmlAd[1].childNodes[0].nodeValue;
+    document.getElementById("beceri1").innerHTML = innerHTML = xmlIcerik[2].childNodes[0].nodeValue;
+    document.getElementById("beceri2").innerHTML = innerHTML = xmlIcerik[3].childNodes[0].nodeValue;
+    document.getElementById("beceri3").innerHTML = innerHTML = xmlIcerik[4].childNodes[0].nodeValue;
+
+
+    document.getElementById("yetkinliBaslik").innerHTML = innerHTML = xmlAd[2].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik1").innerHTML = innerHTML = xmlIcerik[5].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik2").innerHTML = innerHTML = xmlIcerik[6].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik3").innerHTML = innerHTML = xmlIcerik[7].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik4").innerHTML = innerHTML = xmlIcerik[8].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik5").innerHTML = innerHTML = xmlIcerik[9].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik6").innerHTML = innerHTML = xmlIcerik[10].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik7").innerHTML = innerHTML = xmlIcerik[11].childNodes[0].nodeValue;
+    document.getElementById("yetkinlik8").innerHTML = innerHTML = xmlIcerik[12].childNodes[0].nodeValue;
+
+
+}
 </script>
-<div class="tabs">
+        
+
+<div onload='loadXMLDoc' class="tabs">
     <ul class="nav nav-tabs nav-justified">
         <li class="active"><a href="#siniflandirilmis" data-toggle="tab" class="text-center">Sınıflandırılmış</a></li>
         <li><a href="#sirali" data-toggle="tab" class="text-center">Sıralı</a></li>
@@ -23,21 +51,36 @@
     <div class="tab-content">
         <div id="siniflandirilmis" class="tab-pane active">
             <br>
-            <b>BİLGİ</b><br><br>
+            <b id="bilgiBaslik"></b><br><br>
+                    <div style="text-align: justify;">
+                        <ul id="sbilgi">
+                            <li id="bilgi1"></li>
+                            <li id="bilgi2"></li>
+                        </ul>
+                    </div>
+            <br>
+            <b id="beceriBaslik"></b><br><br>
             <div style="text-align: justify;">
-                <ul id="sbilgi"><li>Matematik, fen bilimleri ve ilgili mühendislik disiplinine özgü konularda yeterli bilgi birikimi; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanabilme becerisi.</li><li>Karmaşık mühendislik problemlerini saptama, tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz ve modelleme yöntemlerini seçme ve uygulama becerisi.</li></ul>
+                <ul id="sbeceriler">
+                    <li id="beceri1"></li>
+                    <li id="beceri2"></li>
+                    <li id="beceri3"></li>
+                </ul>
             </div>
 
             <br>
-            <b>Beceriler</b><br><br>
+            <b id="yetkinliBaslik"></b><br><br>
             <div style="text-align: justify;">
-                <ul id="sbeceriler"><li>Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama becerisi.</li><li>Mühendislik uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirme, seçme ve kullanma becerisi; bilişim teknolojilerini etkin bir şekilde kullanma becerisi.</li><li>Karmaşık mühendislik problemlerinin veya disipline özgü araştırma konularının incelenmesi için deney tasarlama, deney yapma, veri toplama, sonuçları analiz etme ve yorumlama becerisi.</li></ul>
-            </div>
-
-            <br>
-            <b>Yetkinlikler</b><br><br>
-            <div style="text-align: justify;">
-                <ul id="syetkinlikler"><li>Disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi; bireysel çalışma becerisi.</li><li>Bilişim Teknolojilerinin yönetim, denetim, gelişim ve güvenliği/güvenilirliği hakkında bilgi sahibi olma ve farkındalık,</li><li>Yaşam boyu öğrenmenin gerekliliği bilinci; bilgiye erişebilme, bilim ve teknolojideki gelişmeleri izleme ve kendini sürekli yenileme becerisi.</li><li>Türkçe sözlü ve yazılı etkin iletişim kurma becerisi; en az bir yabancı dil bilgisi; etkin rapor yazma ve yazılı raporları anlama, tasarım ve üretim raporları hazırlayabilme, etkin sunum yapabilme, açık ve anlaşılır talimat verme ve alma becerisi.</li><li>Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.</li><li>Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilinci; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi.</li><li>Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.</li><li>Mühendislik uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi; mühendislik çözümlerinin hukuksal sonuçları konusunda farkındalık.</li></ul>
+                <ul id="syetkinlikler">
+                    <li id="yetkinlik1"></li>
+                    <li id="yetkinlik2"></li>
+                    <li id="yetkinlik3"></li>
+                    <li id="yetkinlik4"></li>
+                    <li id="yetkinlik5"></li>
+                    <li id="yetkinlik6"></li>
+                    <li id="yetkinlik7"></li>
+                    <li id="yetkinlik8"></li>
+                </ul>
             </div>
 
         </div>
@@ -55,4 +98,3 @@
         </div>
 
     </div>
-</div>
