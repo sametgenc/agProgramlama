@@ -1,42 +1,53 @@
-<breakfast_menu>
-<food>
-<name>Belgian Waffles</name>
-<price>$5.95</price>
-<description>
-Two of our famous Belgian Waffles with plenty of real maple syrup
-</description>
-<calories>650</calories>
-</food>
-<food>
-<name>Strawberry Belgian Waffles</name>
-<price>$7.95</price>
-<description>
-Light Belgian waffles covered with strawberries and whipped cream
-</description>
-<calories>900</calories>
-</food>
-<food>
-<name>Berry-Berry Belgian Waffles</name>
-<price>$8.95</price>
-<description>
-Light Belgian waffles covered with an assortment of fresh berries and whipped cream
-</description>
-<calories>900</calories>
-</food>
-<food>
-<name>French Toast</name>
-<price>$4.50</price>
-<description>
-Thick slices made from our homemade sourdough bread
-</description>
-<calories>600</calories>
-</food>
-<food>
-<name>Homestyle Breakfast</name>
-<price>$6.95</price>
-<description>
-Two eggs, bacon or sausage, toast, and our ever-popular hash browns
-</description>
-<calories>950</calories>
-</food>
-</breakfast_menu> 
+<ogrenmeciktisi>
+  
+  <bilgi>
+    <ad>BİLGİ</ad>
+    <icerik>
+    Matematik, fen bilimleri ve ilgili mühendislik disiplinine özgü konularda yeterli bilgi birikimi; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanabilme becerisi.
+    </icerik>
+    <icerik>
+    Karmaşık mühendislik problemlerini saptama, tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz ve modelleme yöntemlerini seçme ve uygulama becerisi.
+    </icerik>
+  </bilgi>
+  
+<beceriler>
+  <ad>BECERİLER</ad>
+  <icerik>
+    Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama becerisi.
+  </icerik>
+  <icerik>
+    Mühendislik uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirme, seçme ve kullanma becerisi; bilişim teknolojilerini etkin bir şekilde kullanma becerisi.
+  </icerik>
+  <icerik>
+    Karmaşık mühendislik problemlerinin veya disipline özgü araştırma konularının incelenmesi için deney tasarlama, deney yapma, veri toplama, sonuçları analiz etme ve yorumlama becerisi.
+  </icerik>
+</beceriler>
+  
+  <yetkinlikler>
+    <ad>Yetkinlikler</ad>
+    <icerik>
+      Disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi; bireysel çalışma becerisi.
+    </icerik>
+    <icerik>
+      Bilişim Teknolojilerinin yönetim, denetim, gelişim ve güvenliği/güvenilirliği hakkında bilgi sahibi olma ve farkındalık,
+    </icerik>
+    <icerik>
+      Yaşam boyu öğrenmenin gerekliliği bilinci; bilgiye erişebilme, bilim ve teknolojideki gelişmeleri izleme ve kendini sürekli yenileme becerisi.
+    </icerik>
+    <icerik>
+      Türkçe sözlü ve yazılı etkin iletişim kurma becerisi; en az bir yabancı dil bilgisi; etkin rapor yazma ve yazılı raporları anlama, tasarım ve üretim raporları hazırlayabilme, etkin sunum yapabilme, açık ve anlaşılır talimat verme ve alma becerisi.
+    </icerik>
+    <icerik>
+      Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.
+    </icerik>
+    <icerik>
+      Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilinci; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi.
+    </icerik>
+    <icerik>
+      Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.
+    </icerik>
+    <icerik>
+      Mühendislik uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi; mühendislik çözümlerinin hukuksal sonuçları konusunda farkındalık.
+    </icerik>
+  </yetkinlikler>
+</ogrenmeciktisi> 
