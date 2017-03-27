@@ -1,58 +1,48 @@
 [
 {
-    "ad": "İNGİLİZCE",
+    "ad": "DİFERANSİYEL DENKLEMLER",
     "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "derskoor":"Ahmet",
-    "dersAmac": "İngilizce Öğretmek",
-    "dersIcerik": "İngilizce İçerik"
+    "derskoor":"Doç. Dr. Şevket Gür",
+    "dersAmac": "Diferansiyel Denklemleri Öğretmek",
+    "dersIcerik": "Diferansiyel Denklemler İçerik"
 },
 {
-    "ad": "PROGRAMLAMAYA GİRİŞ",
+    "ad": "ELEKTRONİK DEVRELER VE LABORATUVARI",
     "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "derskoor":"Mehmet",
-    "dersAmac": "Programlamaya Girişi anlatmak.",
-    "dersIcerik": "C++"    
+    "derskoor":"Doç. Dr. Kürşat Ayan",
+    "dersAmac": "Elektrik devreleri anlatmak.",
+    "dersIcerik": "Elektrik"    
 },
 {
-    "ad": "OLASILIK VE İSTATİSTİK",
+    "ad": "BİLGİSAYAR ORGANİZASYONU",
     "seviye":"Lisans",
     "tür": "Zorunlu",
-    "dil": "Türkçe",
-    "derskoor":"Osman",
-    "dersAmac": "Olasılık ve İstatistik anlatmak.",
-    "dersIcerik": "Olasılık"    
+    "dil": "Türkçe/İngilizce",
+    "derskoor":"Yrd.Doç.Dr Ali Gülbağ",
+    "dersAmac": "Bilgisayar Donanımını anlatmak.",
+    "dersIcerik": "Donanım"    
   
 },
 {   
-    "ad": "AĞ PROGRAMLAMA",
+    "ad": "PROGRAMLAMA DİLLERİNİN PRENSİPLERİ",
     "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "derskoor":"Celal Çeken",
-    "dersAmac": "Ağ Programlama anlatmak.",
-    "dersIcerik": "Php nojs" 
+    "derskoor":"Prof. Dr. Nejat Yumuşak",
+    "dersAmac": "Programlama dillerini anlatmak.",
+    "dersIcerik": "Java" 
 },
 {
-    "ad": "VERİTABANI YÖNETİM SİSTEMLERİ",
+    "ad": "AYRIK İŞLEMSEL YAPILAR",
     "seviye":"Lisans",
     "tür": "Zorunlu",
     "dil": "Türkçe",
-    "derskoor":"Celal Çeken",
-    "dersAmac": "Veri Tabanı anlatmak.",
-    "dersIcerik": "Mysql" 
+    "derskoor":"Yrd.Doç.Dr Nilüfer Yurtay",
+    "dersAmac": "Ayrık matematik anlatmak.",
+    "dersIcerik": "Matematik" 
 },
-{
-    "ad": "MİKROİŞLEMCİLİ SİSTEMLER VE LABORATUVARI",
-    "seviye":"Lisans",
-    "tür": "Zorunlu",
-    "dil": "Türkçe",
-    "derskoor":"Murat",
-    "dersAmac": "Mikroişlemci yapısını anlamak",
-    "dersIcerik": "Zor Ders" 
-}
-
 ]
